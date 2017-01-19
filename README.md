@@ -1,5 +1,6 @@
 Little bat script for change vpn servers on Windows.
 ----------------------------------------------------
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **change_server.bat** - script, need login and passwords for connect to VPN servers.
 
