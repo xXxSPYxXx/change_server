@@ -1,10 +1,11 @@
 set login=
 set password=
 set /p try=<try.txt
+set /a try+=0
 
 rasdial "%try" /d
 
-if "%try"=="90" (set /a try=1) else (set /a try+=1)
+if "%try%"=="90" (set /a try=1) else (set /a try+=1)
 
 rasdial "%try%" "%login%" "%password%"
 
